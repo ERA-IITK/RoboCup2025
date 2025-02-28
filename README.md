@@ -19,27 +19,27 @@ This domain handles the robot’s power and control circuitry:
 - **Power Distribution:** Utilizes multiple buck and boost converters powered by dual Li-ion batteries to supply various voltages.
 - **Kicking Mechanism Power Circuitry:** High-power circuitry for safe and efficient solenoid operation.
 - **Emergency Stop:** A dedicated circuit ensuring immediate shutdown in critical situations.
-
-### Self-Localization
+The module STM32_code contains the code for the microcontroller responsible for the hardware control.
+### era_localization
 This module enables accurate positioning on the field:
 - **Field-Line Extraction:** Processes camera data to highlight white field lines.
 - **Pose Estimation:** Uses differential evolution to optimize the alignment of the extracted lines with a reference field map, providing a robust global pose estimate.
 - **Fusion with Odometry:** Enhances accuracy by combining visual and inertial data.
 
-### Controls and Motion Planning
-Responsible for planning and executing the robot’s trajectory:
+### Motion Planning
+The folders controller-main, Webots-Ros2-Omniwheel-Simulation-main are part of this module. This is responsible for planning and executing the robot’s trajectory:
 - **Path Planning:** Implements RRT* and cubic spline smoothing to generate collision-free, smooth paths.
 - **Model Predictive Control (MPC):** Uses the ACADO toolkit for real-time, constraint-aware motion control.
 - **Inverse Kinematics:** Converts optimized velocity commands into individual wheel angular velocities.
 
 ### Vision System
-Integrates hardware and software to perceive the game environment:
+The folders vision and callibration are part of this module. This module integrates hardware and software to perceive the game environment:
 - **Hardware:** Employs four wide-angle IMX 179 USB cameras connected to a Jetson Orin nano, operating at 18 fps.
 - **Object Detection:** Runs Yolov11 in parallel threads to detect enemy robots, teammate bots, the ball, and goal posts.
 - **Coordinate Transformation:** Maps image pixel coordinates to real-world field coordinates using a pre-calibrated transformation.
 - **Occlusion Handling:** Uses a temporary storage array to compare positions and differentiate duplicate detections.
 
-### Decision Algorithm
+### decision_module
 This module formulates game strategies by processing the current field state:
 - **Game State Analysis:** Determines ball possession and evaluates the positions of enemy and teammate bots.
 - **Heat Map Integration:** Merges various attraction and repulsion maps to compute optimal positions.
