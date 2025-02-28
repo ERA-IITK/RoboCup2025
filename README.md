@@ -6,6 +6,8 @@ Team ERA-IITK is an autonomous robotics team based at the Indian Institute of Te
 
 ## Domains
 
+![Software Flowchart](Software_Flowchart-1.png)
+
 ### Mechanical Design
 This module covers the design and simulation of the robot's physical components:
 - **Chassis & Structure:** Designed for optimal speed, strength, agility, and stability.
