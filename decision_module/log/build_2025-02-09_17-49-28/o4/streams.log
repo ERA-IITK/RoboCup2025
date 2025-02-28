@@ -1,0 +1,116 @@
+[0.013s] Invoking command in '/home/arbaaz/decision_module/build/o4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o4 -- -j12 -l12
+[0.175s] [ 20%] [32mBuilding CXX object CMakeFiles/main4.dir/src/main4.cpp.o[0m
+[3.528s] In file included from [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:6[m[K:
+[3.528s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:[m[K In member function ‘[01m[Kvirtual double ValidityChecker::clearance(const ompl::base::State*) const[m[K’:
+[3.528s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:124:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.529s]   124 |         for (int i = 0; [01;35m[Ki < obstacles.size()[m[K; i++)
+[3.529s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[3.529s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:137:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PointWithRadius>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.529s]   137 |         if ([01;35m[Kcount == v.size()[m[K)
+[3.529s]       |             [01;35m[K~~~~~~^~~~~~~~~~~[m[K
+[3.556s] In file included from [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:6[m[K:
+[3.556s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:[m[K In function ‘[01m[Kstd::vector<Point2D> plan(double, double, double, std::vector<Point2D>&, optimalPlanner, planningObjective, Point2D&, Point2D&, Point2D&)[m[K’:
+[3.556s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:339:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.556s]   339 |             for (int i = 1; [01;35m[Ki < x_values.size()[m[K; i++)
+[3.557s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[3.557s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:350:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist_now_fin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.557s]   350 |             float [01;35m[Kdist_now_fin[m[K = sqrt((nowPos.x - finalPos.x) * (nowPos.x - finalPos.x) + (nowPos.y - finalPos.y) * (nowPos.y - finalPos.y));
+[3.557s]       |                   [01;35m[K^~~~~~~~~~~~[m[K
+[3.557s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:250:133:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KballPos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.557s]   250 | ve objectiveType, Point2D &nowPos, Point2D &finalPos, [01;35m[KPoint2D &ballPos[m[K)
+[3.557s]       |                                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[3.557s] 
+[5.736s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:[m[K In function ‘[01m[Kint findclosestpoint(std::vector<Point2D>&, Point2D&)[m[K’:
+[5.736s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:51:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.737s]    51 |     for (int i = 0; [01;35m[Ki < targetPos.size()[m[K; i++) // excluding last point and start
+[5.737s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[5.796s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:[m[K In member function ‘[01m[Kvoid ListenerNode::listening()[m[K’:
+[5.796s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:191:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.796s]   191 |         for (int i = 0; [01;35m[Ki < targetPos.size()[m[K && flag == 0; i++)
+[5.796s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[5.798s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:[m[K In member function ‘[01m[Kvoid ListenerNode::publish_next_point(std::vector<Point2D>&, Point2D&)[m[K’:
+[5.798s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:289:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.798s]   289 |             if ([01;35m[Kidx + 2 == path.size() - 1[m[K && idx + 1 != path.size() - 1)
+[5.798s]       |                 [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[5.798s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:289:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.798s]   289 |             if (idx + 2 == path.size() - 1 && [01;35m[Kidx + 1 != path.size() - 1[m[K)
+[5.798s]       |                                               [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[5.798s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:291:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.798s]   291 |                 double [01;35m[Kangle[m[K = atan2((y1 - path[idx].y), (x1 - path[idx].x));
+[5.798s]       |                        [01;35m[K^~~~~[m[K
+[5.799s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:29:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kx1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.799s]   317 |             message.data = {[01;35m[Kx1[m[K, y1, theta, vx, vy, omega, speed, idx, path.size()};
+[5.799s]       |                             [01;35m[K^~[m[K
+[5.799s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:29:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kx1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.800s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ky1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.800s]   317 |             message.data = {x1, [01;35m[Ky1[m[K, theta, vx, vy, omega, speed, idx, path.size()};
+[5.800s]       |                                 [01;35m[K^~[m[K
+[5.800s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ky1[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.800s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:37:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktheta[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.800s]   317 |             message.data = {x1, y1, [01;35m[Ktheta[m[K, vx, vy, omega, speed, idx, path.size()};
+[5.800s]       |                                     [01;35m[K^~~~~[m[K
+[5.800s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:37:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Ktheta[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.800s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:44:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kvx[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.800s]   317 |             message.data = {x1, y1, theta, [01;35m[Kvx[m[K, vy, omega, speed, idx, path.size()};
+[5.800s]       |                                            [01;35m[K^~[m[K
+[5.800s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:44:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kvx[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.800s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:48:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kvy[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.801s]   317 |             message.data = {x1, y1, theta, vx, [01;35m[Kvy[m[K, omega, speed, idx, path.size()};
+[5.801s]       |                                                [01;35m[K^~[m[K
+[5.801s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:48:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kvy[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.801s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:52:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Komega[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.801s]   317 |             message.data = {x1, y1, theta, vx, vy, [01;35m[Komega[m[K, speed, idx, path.size()};
+[5.801s]       |                                                    [01;35m[K^~~~~[m[K
+[5.801s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:52:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Komega[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.801s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kspeed[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.801s]   317 |             message.data = {x1, y1, theta, vx, vy, omega, [01;35m[Kspeed[m[K, idx, path.size()};
+[5.801s]       |                                                           [01;35m[K^~~~~[m[K
+[5.801s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:59:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kspeed[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.801s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:66:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kidx[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.801s]   317 |        message.data = {x1, y1, theta, vx, vy, omega, speed, [01;35m[Kidx[m[K, path.size()};
+[5.801s]       |                                                             [01;35m[K^~~[m[K
+[5.802s] 
+[5.802s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:66:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kidx[m[K’ from ‘[01m[Kint[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.802s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:80:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(& path)->std::vector<Point2D>::size()[m[K’ from ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[5.802s]   317 | message.data = {x1, y1, theta, vx, vy, omega, speed, idx, [01;35m[Kpath.size()[m[K};
+[5.802s]       |                                                           [01;35m[K~~~~~~~~~^~[m[K
+[5.802s] 
+[5.802s] [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:317:80:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(& path)->std::vector<Point2D>::size()[m[K’ from ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[8.895s] In file included from [01m[K/home/arbaaz/decision_module/src/o4/src/main4.cpp:6[m[K:
+[8.895s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:[m[K In function ‘[01m[Kbool argParse(int, char**, double*, optimalPlanner*, planningObjective*, std::string*)[m[K’:
+[8.895s] [01m[K/home/arbaaz/decision_module/src/o4/include/PathPlanner.hpp:583:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.895s]   583 | [01;35m[K}[m[K
+[8.895s]       | [01;35m[K^[m[K
+[14.190s] [ 40%] [32mBuilding CXX object CMakeFiles/main4.dir/src/Visualize.cpp.o[0m
+[15.406s] [01m[K/home/arbaaz/decision_module/src/o4/src/Visualize.cpp:[m[K In member function ‘[01m[Kvoid Visualize::visualizeGame(std::vector<Point2D>&, Point2D&, int, double, std::vector<Point2D>&, Point2D&)[m[K’:
+[15.407s] [01m[K/home/arbaaz/decision_module/src/o4/src/Visualize.cpp:179:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[15.407s]   179 |     for (int i = 0; [01;35m[Ki < obstacles.size()[m[K; i++) {
+[15.407s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[15.860s] [ 60%] [32m[1mLinking CXX executable main4[0m
+[17.737s] [ 60%] Built target main4
+[17.807s] [ 80%] [32mBuilding CXX object CMakeFiles/controller4.dir/src/controller4.cpp.o[0m
+[26.604s] [100%] [32m[1mLinking CXX executable controller4[0m
+[27.531s] [100%] Built target controller4
+[27.548s] Invoked command in '/home/arbaaz/decision_module/build/o4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o4 -- -j12 -l12
+[27.551s] Invoking command in '/home/arbaaz/decision_module/build/o4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o4
+[27.560s] -- Install configuration: ""
+[27.561s] -- Installing: /home/arbaaz/decision_module/install/o4/lib/o4/main4
+[27.569s] -- Set runtime path of "/home/arbaaz/decision_module/install/o4/lib/o4/main4" to ""
+[27.570s] -- Installing: /home/arbaaz/decision_module/install/o4/lib/o4/controller4
+[27.576s] -- Set runtime path of "/home/arbaaz/decision_module/install/o4/lib/o4/controller4" to ""
+[27.578s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/package_run_dependencies/o4
+[27.578s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/parent_prefix_path/o4
+[27.580s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/ament_prefix_path.sh
+[27.580s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/ament_prefix_path.dsv
+[27.580s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/path.sh
+[27.580s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/path.dsv
+[27.580s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.bash
+[27.580s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.sh
+[27.580s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.zsh
+[27.580s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.dsv
+[27.581s] -- Installing: /home/arbaaz/decision_module/install/o4/share/o4/package.dsv
+[27.581s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/packages/o4
+[27.582s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/cmake/o4Config.cmake
+[27.582s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/cmake/o4Config-version.cmake
+[27.582s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/package.xml
+[27.585s] Invoked command in '/home/arbaaz/decision_module/build/o4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o4

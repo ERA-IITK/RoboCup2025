@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target main5[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/main5.dir/src/main5.cpp.o[0m
+[ 40%] [32m[1mLinking CXX executable main5[0m
+[ 60%] Built target main5
+[ 80%] [32mBuilding CXX object CMakeFiles/controller5.dir/src/controller5.cpp.o[0m
+[100%] [32m[1mLinking CXX executable controller5[0m
+[100%] Built target controller5
+-- Install configuration: ""
+-- Installing: /home/arbaaz/decision_module/install/o5/lib/o5/main5
+-- Set runtime path of "/home/arbaaz/decision_module/install/o5/lib/o5/main5" to ""
+-- Installing: /home/arbaaz/decision_module/install/o5/lib/o5/controller5
+-- Set runtime path of "/home/arbaaz/decision_module/install/o5/lib/o5/controller5" to ""
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/package_run_dependencies/o5
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/parent_prefix_path/o5
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/ament_prefix_path.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/path.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/path.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.bash
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.zsh
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.dsv
+-- Installing: /home/arbaaz/decision_module/install/o5/share/o5/package.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/packages/o5
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/cmake/o5Config.cmake
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/cmake/o5Config-version.cmake
+-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/package.xml

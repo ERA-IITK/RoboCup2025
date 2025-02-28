@@ -1,0 +1,407 @@
+[0.280s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--executor', 'sequential']
+[0.280s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x719c6b37e860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x719c6b37e3b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x719c6b37e3b0>>, mixin_verb=('build',))
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.536s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arbaaz/decision_module'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/o1) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/o1' with type 'ros.ament_cmake' and name 'o1'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/o2) by extension 'ros'
+[0.556s] DEBUG:colcon.colcon_core.package_identification:Package 'src/o2' with type 'ros.ament_cmake' and name 'o2'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/o3) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'src/o3' with type 'ros.ament_cmake' and name 'o3'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/o4) by extension 'ros'
+[0.561s] DEBUG:colcon.colcon_core.package_identification:Package 'src/o4' with type 'ros.ament_cmake' and name 'o4'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/o5) by extension 'ros'
+[0.562s] DEBUG:colcon.colcon_core.package_identification:Package 'src/o5' with type 'ros.ament_cmake' and name 'o5'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extension 'ignore'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extension 'ignore_ament_install'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extensions ['colcon_pkg']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extension 'colcon_pkg'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extensions ['colcon_meta']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extension 'colcon_meta'
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extensions ['ros']
+[0.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation_pkg) by extension 'ros'
+[0.564s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation_pkg' with type 'ros.ament_python' and name 'simulation_pkg'
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.610s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/arbaaz/decision_module/install
+[0.614s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[0.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'cmake_clean_first' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'cmake_force_configure' from command line to 'False'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'ament_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.699s] DEBUG:colcon.colcon_core.verb:Building package 'o1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arbaaz/decision_module/build/o1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arbaaz/decision_module/install/o1', 'merge_install': False, 'path': '/home/arbaaz/decision_module/src/o1', 'symlink_install': False, 'test_result_base': None}
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'cmake_args' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'cmake_target' from command line to 'None'
+[0.699s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'cmake_clean_first' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'cmake_force_configure' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'o2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arbaaz/decision_module/build/o2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arbaaz/decision_module/install/o2', 'merge_install': False, 'path': '/home/arbaaz/decision_module/src/o2', 'symlink_install': False, 'test_result_base': None}
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'cmake_target' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'cmake_clean_first' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'cmake_force_configure' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.700s] DEBUG:colcon.colcon_core.verb:Building package 'o3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arbaaz/decision_module/build/o3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arbaaz/decision_module/install/o3', 'merge_install': False, 'path': '/home/arbaaz/decision_module/src/o3', 'symlink_install': False, 'test_result_base': None}
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'cmake_target' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'cmake_clean_first' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'cmake_force_configure' from command line to 'False'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'ament_cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.701s] DEBUG:colcon.colcon_core.verb:Building package 'o4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arbaaz/decision_module/build/o4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arbaaz/decision_module/install/o4', 'merge_install': False, 'path': '/home/arbaaz/decision_module/src/o4', 'symlink_install': False, 'test_result_base': None}
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'cmake_target' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'cmake_clean_first' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'cmake_force_configure' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'ament_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'o5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.701s] DEBUG:colcon.colcon_core.verb:Building package 'o5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arbaaz/decision_module/build/o5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arbaaz/decision_module/install/o5', 'merge_install': False, 'path': '/home/arbaaz/decision_module/src/o5', 'symlink_install': False, 'test_result_base': None}
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'cmake_target' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'simulation_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.701s] DEBUG:colcon.colcon_core.verb:Building package 'simulation_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arbaaz/decision_module/build/simulation_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arbaaz/decision_module/install/simulation_pkg', 'merge_install': False, 'path': '/home/arbaaz/decision_module/src/simulation_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.702s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.703s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o1'
+[0.703s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arbaaz/decision_module/src/o1' with build type 'ament_cmake'
+[0.703s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arbaaz/decision_module/src/o1'
+[0.708s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.708s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.708s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o1 -- -j12 -l12
+[26.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o1 -- -j12 -l12
+[26.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o1
+[27.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o1)
+[27.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o1
+[27.015s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1' for CMake module files
+[27.015s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1' for CMake config files
+[27.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('o1', 'cmake_prefix_path')
+[27.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o1/share/o1/hook/cmake_prefix_path.ps1'
+[27.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o1/share/o1/hook/cmake_prefix_path.dsv'
+[27.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o1/share/o1/hook/cmake_prefix_path.sh'
+[27.019s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/lib'
+[27.019s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/bin'
+[27.020s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/lib/pkgconfig/o1.pc'
+[27.020s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/lib/python3.10/site-packages'
+[27.020s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/bin'
+[27.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o1/share/o1/package.ps1'
+[27.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o1/share/o1/package.dsv'
+[27.022s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o1/share/o1/package.sh'
+[27.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o1/share/o1/package.bash'
+[27.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o1/share/o1/package.zsh'
+[27.025s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o1/share/colcon-core/packages/o1)
+[27.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o1)
+[27.027s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1' for CMake module files
+[27.027s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1' for CMake config files
+[27.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('o1', 'cmake_prefix_path')
+[27.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o1/share/o1/hook/cmake_prefix_path.ps1'
+[27.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o1/share/o1/hook/cmake_prefix_path.dsv'
+[27.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o1/share/o1/hook/cmake_prefix_path.sh'
+[27.029s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/lib'
+[27.029s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/bin'
+[27.029s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/lib/pkgconfig/o1.pc'
+[27.029s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/lib/python3.10/site-packages'
+[27.029s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o1/bin'
+[27.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o1/share/o1/package.ps1'
+[27.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o1/share/o1/package.dsv'
+[27.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o1/share/o1/package.sh'
+[27.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o1/share/o1/package.bash'
+[27.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o1/share/o1/package.zsh'
+[27.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o1/share/colcon-core/packages/o1)
+[27.033s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o1' finished with '0'
+[27.033s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o2'
+[27.033s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arbaaz/decision_module/src/o2' with build type 'ament_cmake'
+[27.033s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arbaaz/decision_module/src/o2'
+[27.033s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.033s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o2 -- -j12 -l12
+[54.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o2 -- -j12 -l12
+[54.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o2
+[54.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o2)
+[54.381s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2' for CMake module files
+[54.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o2
+[54.383s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2' for CMake config files
+[54.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('o2', 'cmake_prefix_path')
+[54.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o2/share/o2/hook/cmake_prefix_path.ps1'
+[54.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o2/share/o2/hook/cmake_prefix_path.dsv'
+[54.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o2/share/o2/hook/cmake_prefix_path.sh'
+[54.388s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/lib'
+[54.388s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/bin'
+[54.388s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/lib/pkgconfig/o2.pc'
+[54.389s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/lib/python3.10/site-packages'
+[54.389s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/bin'
+[54.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o2/share/o2/package.ps1'
+[54.390s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o2/share/o2/package.dsv'
+[54.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o2/share/o2/package.sh'
+[54.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o2/share/o2/package.bash'
+[54.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o2/share/o2/package.zsh'
+[54.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o2/share/colcon-core/packages/o2)
+[54.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o2)
+[54.394s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2' for CMake module files
+[54.394s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2' for CMake config files
+[54.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('o2', 'cmake_prefix_path')
+[54.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o2/share/o2/hook/cmake_prefix_path.ps1'
+[54.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o2/share/o2/hook/cmake_prefix_path.dsv'
+[54.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o2/share/o2/hook/cmake_prefix_path.sh'
+[54.396s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/lib'
+[54.396s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/bin'
+[54.396s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/lib/pkgconfig/o2.pc'
+[54.396s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/lib/python3.10/site-packages'
+[54.396s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o2/bin'
+[54.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o2/share/o2/package.ps1'
+[54.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o2/share/o2/package.dsv'
+[54.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o2/share/o2/package.sh'
+[54.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o2/share/o2/package.bash'
+[54.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o2/share/o2/package.zsh'
+[54.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o2/share/colcon-core/packages/o2)
+[54.398s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o2' finished with '0'
+[54.398s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o3'
+[54.399s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arbaaz/decision_module/src/o3' with build type 'ament_cmake'
+[54.399s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arbaaz/decision_module/src/o3'
+[54.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[54.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o3 -- -j12 -l12
+[81.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o3 -- -j12 -l12
+[81.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o3
+[81.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o3)
+[81.416s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3' for CMake module files
+[81.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o3
+[81.417s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3' for CMake config files
+[81.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('o3', 'cmake_prefix_path')
+[81.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o3/share/o3/hook/cmake_prefix_path.ps1'
+[81.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o3/share/o3/hook/cmake_prefix_path.dsv'
+[81.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o3/share/o3/hook/cmake_prefix_path.sh'
+[81.423s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/lib'
+[81.424s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/bin'
+[81.424s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/lib/pkgconfig/o3.pc'
+[81.424s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/lib/python3.10/site-packages'
+[81.424s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/bin'
+[81.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o3/share/o3/package.ps1'
+[81.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o3/share/o3/package.dsv'
+[81.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o3/share/o3/package.sh'
+[81.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o3/share/o3/package.bash'
+[81.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o3/share/o3/package.zsh'
+[81.428s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o3/share/colcon-core/packages/o3)
+[81.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o3)
+[81.429s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3' for CMake module files
+[81.430s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3' for CMake config files
+[81.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('o3', 'cmake_prefix_path')
+[81.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o3/share/o3/hook/cmake_prefix_path.ps1'
+[81.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o3/share/o3/hook/cmake_prefix_path.dsv'
+[81.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o3/share/o3/hook/cmake_prefix_path.sh'
+[81.431s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/lib'
+[81.431s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/bin'
+[81.431s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/lib/pkgconfig/o3.pc'
+[81.431s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/lib/python3.10/site-packages'
+[81.432s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o3/bin'
+[81.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o3/share/o3/package.ps1'
+[81.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o3/share/o3/package.dsv'
+[81.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o3/share/o3/package.sh'
+[81.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o3/share/o3/package.bash'
+[81.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o3/share/o3/package.zsh'
+[81.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o3/share/colcon-core/packages/o3)
+[81.434s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o3' finished with '0'
+[81.434s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o4'
+[81.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arbaaz/decision_module/src/o4' with build type 'ament_cmake'
+[81.434s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arbaaz/decision_module/src/o4'
+[81.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[81.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[81.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o4 -- -j12 -l12
+[108.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o4 -- -j12 -l12
+[108.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o4
+[109.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o4)
+[109.022s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4' for CMake module files
+[109.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o4
+[109.022s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4' for CMake config files
+[109.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('o4', 'cmake_prefix_path')
+[109.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o4/share/o4/hook/cmake_prefix_path.ps1'
+[109.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o4/share/o4/hook/cmake_prefix_path.dsv'
+[109.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o4/share/o4/hook/cmake_prefix_path.sh'
+[109.027s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/lib'
+[109.027s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/bin'
+[109.027s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/lib/pkgconfig/o4.pc'
+[109.027s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/lib/python3.10/site-packages'
+[109.028s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/bin'
+[109.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o4/share/o4/package.ps1'
+[109.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o4/share/o4/package.dsv'
+[109.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o4/share/o4/package.sh'
+[109.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o4/share/o4/package.bash'
+[109.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o4/share/o4/package.zsh'
+[109.033s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o4/share/colcon-core/packages/o4)
+[109.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o4)
+[109.034s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4' for CMake module files
+[109.034s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4' for CMake config files
+[109.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('o4', 'cmake_prefix_path')
+[109.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o4/share/o4/hook/cmake_prefix_path.ps1'
+[109.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o4/share/o4/hook/cmake_prefix_path.dsv'
+[109.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o4/share/o4/hook/cmake_prefix_path.sh'
+[109.036s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/lib'
+[109.036s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/bin'
+[109.036s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/lib/pkgconfig/o4.pc'
+[109.036s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/lib/python3.10/site-packages'
+[109.036s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o4/bin'
+[109.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o4/share/o4/package.ps1'
+[109.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o4/share/o4/package.dsv'
+[109.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o4/share/o4/package.sh'
+[109.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o4/share/o4/package.bash'
+[109.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o4/share/o4/package.zsh'
+[109.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o4/share/colcon-core/packages/o4)
+[109.038s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o4' finished with '0'
+[109.038s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o5'
+[109.038s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arbaaz/decision_module/src/o5' with build type 'ament_cmake'
+[109.039s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arbaaz/decision_module/src/o5'
+[109.039s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[109.039s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[109.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arbaaz/decision_module/build/o5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o5 -- -j12 -l12
+[194.137s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o5' was interrupted
+[194.141s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o5' again
+[194.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arbaaz/decision_module/build/o5' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o5 -- -j12 -l12
+[194.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(o5)
+[194.250s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o5' for CMake module files
+[194.255s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o5' for CMake config files
+[194.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('o5', 'cmake_prefix_path')
+[194.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o5/share/o5/hook/cmake_prefix_path.ps1'
+[194.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arbaaz/decision_module/install/o5/share/o5/hook/cmake_prefix_path.dsv'
+[194.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arbaaz/decision_module/install/o5/share/o5/hook/cmake_prefix_path.sh'
+[194.271s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o5/lib'
+[194.271s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o5/bin'
+[194.271s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o5/lib/pkgconfig/o5.pc'
+[194.272s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o5/lib/python3.10/site-packages'
+[194.272s] Level 1:colcon.colcon_core.environment:checking '/home/arbaaz/decision_module/install/o5/bin'
+[194.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o5/share/o5/package.ps1'
+[194.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arbaaz/decision_module/install/o5/share/o5/package.dsv'
+[194.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o5/share/o5/package.sh'
+[194.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o5/share/o5/package.bash'
+[194.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/arbaaz/decision_module/install/o5/share/o5/package.zsh'
+[194.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arbaaz/decision_module/install/o5/share/colcon-core/packages/o5)
+[194.287s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'o5' finished
+[194.288s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[194.289s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[194.289s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[194.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[194.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[194.359s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[194.415s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[194.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arbaaz/decision_module/install/local_setup.ps1'
+[194.420s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arbaaz/decision_module/install/_local_setup_util_ps1.py'
+[194.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arbaaz/decision_module/install/setup.ps1'
+[194.431s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arbaaz/decision_module/install/local_setup.sh'
+[194.433s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arbaaz/decision_module/install/_local_setup_util_sh.py'
+[194.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arbaaz/decision_module/install/setup.sh'
+[194.442s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arbaaz/decision_module/install/local_setup.bash'
+[194.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arbaaz/decision_module/install/setup.bash'
+[194.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arbaaz/decision_module/install/local_setup.zsh'
+[194.452s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arbaaz/decision_module/install/setup.zsh'

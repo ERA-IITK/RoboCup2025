@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<robot name="My robot">
+    <webots>
+        <plugin type="my_robot_driver_B2::MyRobotDriver" />
+    </webots>
+</robot>

@@ -1,0 +1,20 @@
+[ 60%] Built target main2
+[100%] Built target controller2
+-- Install configuration: ""
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/lib/o2/main2
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/lib/o2/controller2
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/package_run_dependencies/o2
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/parent_prefix_path/o2
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/path.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/path.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.bash
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.zsh
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.dsv
+-- Installing: /home/arbaaz/decision_module/install/o2/share/o2/package.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/packages/o2
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/cmake/o2Config.cmake
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/cmake/o2Config-version.cmake
+-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/package.xml

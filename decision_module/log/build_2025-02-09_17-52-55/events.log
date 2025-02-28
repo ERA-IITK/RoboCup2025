@@ -1,0 +1,557 @@
+[0.000000] (-) TimerEvent: {}
+[0.000340] (o1) JobQueued: {'identifier': 'o1', 'dependencies': OrderedDict()}
+[0.000422] (o2) JobQueued: {'identifier': 'o2', 'dependencies': OrderedDict()}
+[0.000472] (o3) JobQueued: {'identifier': 'o3', 'dependencies': OrderedDict()}
+[0.000516] (o4) JobQueued: {'identifier': 'o4', 'dependencies': OrderedDict()}
+[0.000558] (o5) JobQueued: {'identifier': 'o5', 'dependencies': OrderedDict()}
+[0.000602] (simulation_pkg) JobQueued: {'identifier': 'simulation_pkg', 'dependencies': OrderedDict()}
+[0.000646] (o1) JobStarted: {'identifier': 'o1'}
+[0.013067] (o1) JobProgress: {'identifier': 'o1', 'progress': 'cmake'}
+[0.014938] (o1) JobProgress: {'identifier': 'o1', 'progress': 'build'}
+[0.014979] (o1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arbaaz/decision_module/build/o1', '--', '-j12', '-l12'], 'cwd': '/home/arbaaz/decision_module/build/o1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099317] (-) TimerEvent: {}
+[0.161981] (o1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main1\x1b[0m\n'}
+[0.199459] (-) TimerEvent: {}
+[0.278842] (o1) StdoutLine: {'line': b'[ 60%] Built target main1\n'}
+[0.296761] (o1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller1\x1b[0m\n'}
+[0.299547] (-) TimerEvent: {}
+[0.335265] (o1) StdoutLine: {'line': b'[100%] Built target controller1\n'}
+[0.349066] (o1) CommandEnded: {'returncode': 0}
+[0.350671] (o1) JobProgress: {'identifier': 'o1', 'progress': 'install'}
+[0.362039] (o1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arbaaz/decision_module/build/o1'], 'cwd': '/home/arbaaz/decision_module/build/o1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o1'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[0.370653] (o1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.371866] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/lib/o1/main1\n'}
+[0.372575] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/lib/o1/controller1\n'}
+[0.372788] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/ament_index/resource_index/package_run_dependencies/o1\n'}
+[0.373048] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/ament_index/resource_index/parent_prefix_path/o1\n'}
+[0.373448] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/environment/ament_prefix_path.sh\n'}
+[0.373572] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/environment/ament_prefix_path.dsv\n'}
+[0.373664] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/environment/path.sh\n'}
+[0.373778] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/environment/path.dsv\n'}
+[0.373864] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/local_setup.bash\n'}
+[0.373951] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/local_setup.sh\n'}
+[0.374007] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/local_setup.zsh\n'}
+[0.374072] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/local_setup.dsv\n'}
+[0.374127] (o1) StdoutLine: {'line': b'-- Installing: /home/arbaaz/decision_module/install/o1/share/o1/package.dsv\n'}
+[0.374459] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/ament_index/resource_index/packages/o1\n'}
+[0.374726] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/cmake/o1Config.cmake\n'}
+[0.374852] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/cmake/o1Config-version.cmake\n'}
+[0.374957] (o1) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o1/share/o1/package.xml\n'}
+[0.377777] (o1) CommandEnded: {'returncode': 0}
+[0.395951] (o1) JobEnded: {'identifier': 'o1', 'rc': 0}
+[0.397153] (o2) JobStarted: {'identifier': 'o2'}
+[0.400190] (-) TimerEvent: {}
+[0.402830] (o2) JobProgress: {'identifier': 'o2', 'progress': 'cmake'}
+[0.403839] (o2) JobProgress: {'identifier': 'o2', 'progress': 'build'}
+[0.404575] (o2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arbaaz/decision_module/build/o2', '--', '-j12', '-l12'], 'cwd': '/home/arbaaz/decision_module/build/o2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[0.464222] (o2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main2\x1b[0m\n'}
+[0.500384] (-) TimerEvent: {}
+[0.503952] (o2) StdoutLine: {'line': b'[ 60%] Built target main2\n'}
+[0.523214] (o2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller2\x1b[0m\n'}
+[0.549960] (o2) StdoutLine: {'line': b'[100%] Built target controller2\n'}
+[0.565938] (o2) CommandEnded: {'returncode': 0}
+[0.567756] (o2) JobProgress: {'identifier': 'o2', 'progress': 'install'}
+[0.568870] (o2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arbaaz/decision_module/build/o2'], 'cwd': '/home/arbaaz/decision_module/build/o2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[0.578134] (o2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.579241] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/lib/o2/main2\n'}
+[0.579931] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/lib/o2/controller2\n'}
+[0.580109] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/package_run_dependencies/o2\n'}
+[0.580275] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/parent_prefix_path/o2\n'}
+[0.580658] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/ament_prefix_path.sh\n'}
+[0.580840] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/ament_prefix_path.dsv\n'}
+[0.580993] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/path.sh\n'}
+[0.581118] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/path.dsv\n'}
+[0.581192] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.bash\n'}
+[0.581263] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.sh\n'}
+[0.581334] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.zsh\n'}
+[0.581399] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.dsv\n'}
+[0.581453] (o2) StdoutLine: {'line': b'-- Installing: /home/arbaaz/decision_module/install/o2/share/o2/package.dsv\n'}
+[0.581631] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/packages/o2\n'}
+[0.581902] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/cmake/o2Config.cmake\n'}
+[0.582016] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/cmake/o2Config-version.cmake\n'}
+[0.582106] (o2) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/package.xml\n'}
+[0.584775] (o2) CommandEnded: {'returncode': 0}
+[0.596425] (o2) JobEnded: {'identifier': 'o2', 'rc': 0}
+[0.597396] (o3) JobStarted: {'identifier': 'o3'}
+[0.600610] (-) TimerEvent: {}
+[0.603612] (o3) JobProgress: {'identifier': 'o3', 'progress': 'cmake'}
+[0.604526] (o3) JobProgress: {'identifier': 'o3', 'progress': 'build'}
+[0.605792] (o3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arbaaz/decision_module/build/o3', '--', '-j12', '-l12'], 'cwd': '/home/arbaaz/decision_module/build/o3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[0.664768] (o3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main3\x1b[0m\n'}
+[0.700843] (-) TimerEvent: {}
+[0.702920] (o3) StdoutLine: {'line': b'[ 60%] Built target main3\n'}
+[0.722661] (o3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller3\x1b[0m\n'}
+[0.749148] (o3) StdoutLine: {'line': b'[100%] Built target controller3\n'}
+[0.763895] (o3) CommandEnded: {'returncode': 0}
+[0.765423] (o3) JobProgress: {'identifier': 'o3', 'progress': 'install'}
+[0.766338] (o3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arbaaz/decision_module/build/o3'], 'cwd': '/home/arbaaz/decision_module/build/o3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o3'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[0.775243] (o3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.776292] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/lib/o3/main3\n'}
+[0.777206] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/lib/o3/controller3\n'}
+[0.777392] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/ament_index/resource_index/package_run_dependencies/o3\n'}
+[0.777619] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/ament_index/resource_index/parent_prefix_path/o3\n'}
+[0.777968] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/environment/ament_prefix_path.sh\n'}
+[0.778119] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/environment/ament_prefix_path.dsv\n'}
+[0.778236] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/environment/path.sh\n'}
+[0.778312] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/environment/path.dsv\n'}
+[0.778389] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/local_setup.bash\n'}
+[0.778504] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/local_setup.sh\n'}
+[0.778584] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/local_setup.zsh\n'}
+[0.778657] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/local_setup.dsv\n'}
+[0.778738] (o3) StdoutLine: {'line': b'-- Installing: /home/arbaaz/decision_module/install/o3/share/o3/package.dsv\n'}
+[0.778980] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/ament_index/resource_index/packages/o3\n'}
+[0.779251] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/cmake/o3Config.cmake\n'}
+[0.779353] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/cmake/o3Config-version.cmake\n'}
+[0.779474] (o3) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o3/share/o3/package.xml\n'}
+[0.782135] (o3) CommandEnded: {'returncode': 0}
+[0.793939] (o3) JobEnded: {'identifier': 'o3', 'rc': 0}
+[0.795004] (o4) JobStarted: {'identifier': 'o4'}
+[0.800838] (o4) JobProgress: {'identifier': 'o4', 'progress': 'cmake'}
+[0.800945] (-) TimerEvent: {}
+[0.802702] (o4) JobProgress: {'identifier': 'o4', 'progress': 'build'}
+[0.802882] (o4) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arbaaz/decision_module/build/o4', '--', '-j12', '-l12'], 'cwd': '/home/arbaaz/decision_module/build/o4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o4'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[0.861655] (o4) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main4\x1b[0m\n'}
+[0.900905] (o4) StdoutLine: {'line': b'[ 60%] Built target main4\n'}
+[0.901222] (-) TimerEvent: {}
+[0.918616] (o4) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller4\x1b[0m\n'}
+[0.944205] (o4) StdoutLine: {'line': b'[100%] Built target controller4\n'}
+[0.958188] (o4) CommandEnded: {'returncode': 0}
+[0.959834] (o4) JobProgress: {'identifier': 'o4', 'progress': 'install'}
+[0.960863] (o4) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arbaaz/decision_module/build/o4'], 'cwd': '/home/arbaaz/decision_module/build/o4', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o4'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[0.969810] (o4) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.970553] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/lib/o4/main4\n'}
+[0.971393] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/lib/o4/controller4\n'}
+[0.971595] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/package_run_dependencies/o4\n'}
+[0.971674] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/parent_prefix_path/o4\n'}
+[0.971802] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/ament_prefix_path.sh\n'}
+[0.971891] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/ament_prefix_path.dsv\n'}
+[0.971956] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/path.sh\n'}
+[0.972018] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/path.dsv\n'}
+[0.972103] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.bash\n'}
+[0.972157] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.sh\n'}
+[0.972211] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.zsh\n'}
+[0.972263] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.dsv\n'}
+[0.972314] (o4) StdoutLine: {'line': b'-- Installing: /home/arbaaz/decision_module/install/o4/share/o4/package.dsv\n'}
+[0.972386] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/packages/o4\n'}
+[0.972469] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/cmake/o4Config.cmake\n'}
+[0.972521] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/cmake/o4Config-version.cmake\n'}
+[0.972573] (o4) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/package.xml\n'}
+[0.975629] (o4) CommandEnded: {'returncode': 0}
+[0.987026] (o4) JobEnded: {'identifier': 'o4', 'rc': 0}
+[0.987472] (o5) JobStarted: {'identifier': 'o5'}
+[0.993981] (o5) JobProgress: {'identifier': 'o5', 'progress': 'cmake'}
+[0.995072] (o5) JobProgress: {'identifier': 'o5', 'progress': 'build'}
+[0.995903] (o5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arbaaz/decision_module/build/o5', '--', '-j12', '-l12'], 'cwd': '/home/arbaaz/decision_module/build/o5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o5'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[1.001347] (-) TimerEvent: {}
+[1.060177] (o5) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main5\x1b[0m\n'}
+[1.098894] (o5) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/main5.dir/src/main5.cpp.o\x1b[0m\n'}
+[1.101520] (-) TimerEvent: {}
+[1.201994] (-) TimerEvent: {}
+[1.302466] (-) TimerEvent: {}
+[1.402854] (-) TimerEvent: {}
+[1.503307] (-) TimerEvent: {}
+[1.603773] (-) TimerEvent: {}
+[1.704181] (-) TimerEvent: {}
+[1.804593] (-) TimerEvent: {}
+[1.905054] (-) TimerEvent: {}
+[2.005559] (-) TimerEvent: {}
+[2.106021] (-) TimerEvent: {}
+[2.206439] (-) TimerEvent: {}
+[2.306885] (-) TimerEvent: {}
+[2.407342] (-) TimerEvent: {}
+[2.507771] (-) TimerEvent: {}
+[2.608259] (-) TimerEvent: {}
+[2.708773] (-) TimerEvent: {}
+[2.809218] (-) TimerEvent: {}
+[2.909710] (-) TimerEvent: {}
+[3.010301] (-) TimerEvent: {}
+[3.110804] (-) TimerEvent: {}
+[3.211275] (-) TimerEvent: {}
+[3.311797] (-) TimerEvent: {}
+[3.412316] (-) TimerEvent: {}
+[3.512809] (-) TimerEvent: {}
+[3.613281] (-) TimerEvent: {}
+[3.713771] (-) TimerEvent: {}
+[3.814247] (-) TimerEvent: {}
+[3.914770] (-) TimerEvent: {}
+[4.015246] (-) TimerEvent: {}
+[4.115757] (-) TimerEvent: {}
+[4.216232] (-) TimerEvent: {}
+[4.316709] (-) TimerEvent: {}
+[4.417220] (-) TimerEvent: {}
+[4.517696] (-) TimerEvent: {}
+[4.618197] (-) TimerEvent: {}
+[4.623531] (o5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:6\x1b[m\x1b[K:\n'}
+[4.627083] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual double ValidityChecker::clearance(const ompl::base::State*) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.627238] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:124:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point2D>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.627368] (o5) StderrLine: {'line': b'  124 |         for (int i = 0; \x1b[01;35m\x1b[Ki < obstacles.size()\x1b[m\x1b[K; i++)\n'}
+[4.627487] (o5) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.627604] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:137:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<PointWithRadius>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.627726] (o5) StderrLine: {'line': b'  137 |         if (\x1b[01;35m\x1b[Kcount == v.size()\x1b[m\x1b[K)\n'}
+[4.627867] (o5) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.652054] (o5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:6\x1b[m\x1b[K:\n'}
+[4.652416] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point2D> plan(double, double, double, std::vector<Point2D>&, optimalPlanner, planningObjective, Point2D&, Point2D&, Point2D&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.652610] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:339:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<double>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.652896] (o5) StderrLine: {'line': b'  339 |             for (int i = 1; \x1b[01;35m\x1b[Ki < x_values.size()\x1b[m\x1b[K; i++)\n'}
+[4.652991] (o5) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.653069] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:350:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdist_now_fin\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.653176] (o5) StderrLine: {'line': b'  350 |             float \x1b[01;35m\x1b[Kdist_now_fin\x1b[m\x1b[K = sqrt((nowPos.x - finalPos.x) * (nowPos.x - finalPos.x) + (nowPos.y - finalPos.y) * (nowPos.y - finalPos.y));\n'}
+[4.653253] (o5) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.653568] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:250:133:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KballPos\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.653662] (o5) StderrLine: {'line': b'  250 | ve objectiveType, Point2D &nowPos, Point2D &finalPos, \x1b[01;35m\x1b[KPoint2D &ballPos\x1b[m\x1b[K)\n'}
+[4.653754] (o5) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[4.653837] (o5) StderrLine: {'line': b'\n'}
+[4.718380] (-) TimerEvent: {}
+[4.819071] (-) TimerEvent: {}
+[4.919529] (-) TimerEvent: {}
+[5.019997] (-) TimerEvent: {}
+[5.120451] (-) TimerEvent: {}
+[5.220958] (-) TimerEvent: {}
+[5.321432] (-) TimerEvent: {}
+[5.421899] (-) TimerEvent: {}
+[5.522363] (-) TimerEvent: {}
+[5.622812] (-) TimerEvent: {}
+[5.723199] (-) TimerEvent: {}
+[5.823668] (-) TimerEvent: {}
+[5.924181] (-) TimerEvent: {}
+[6.024637] (-) TimerEvent: {}
+[6.125123] (-) TimerEvent: {}
+[6.225608] (-) TimerEvent: {}
+[6.326135] (-) TimerEvent: {}
+[6.426626] (-) TimerEvent: {}
+[6.527118] (-) TimerEvent: {}
+[6.627588] (-) TimerEvent: {}
+[6.728069] (-) TimerEvent: {}
+[6.826779] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint findclosestpoint(std::vector<Point2D>&, Point2D&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.827186] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:51:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point2D>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.827467] (o5) StderrLine: {'line': b'   51 |     for (int i = 0; \x1b[01;35m\x1b[Ki < targetPos.size()\x1b[m\x1b[K; i++) // excluding last point and start\n'}
+[6.827683] (o5) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.828144] (-) TimerEvent: {}
+[6.887908] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ListenerNode::listening()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.888256] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:191:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point2D>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.888438] (o5) StderrLine: {'line': b'  191 |         for (int i = 0; \x1b[01;35m\x1b[Ki < targetPos.size()\x1b[m\x1b[K && flag == 0; i++)\n'}
+[6.888596] (o5) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.890308] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ListenerNode::publish_next_point(std::vector<Point2D>&, Point2D&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.890461] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:289:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point2D>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.890542] (o5) StderrLine: {'line': b'  289 |             if (\x1b[01;35m\x1b[Kidx + 2 == path.size() - 1\x1b[m\x1b[K && idx + 1 != path.size() - 1)\n'}
+[6.890615] (o5) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.890687] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:289:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point2D>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.890775] (o5) StderrLine: {'line': b'  289 |             if (idx + 2 == path.size() - 1 && \x1b[01;35m\x1b[Kidx + 1 != path.size() - 1\x1b[m\x1b[K)\n'}
+[6.890853] (o5) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.890924] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:291:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.890998] (o5) StderrLine: {'line': b'  291 |                 double \x1b[01;35m\x1b[Kangle\x1b[m\x1b[K = atan2((y1 - path[idx].y), (x1 - path[idx].x));\n'}
+[6.891069] (o5) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.891848] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kx1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.891951] (o5) StderrLine: {'line': b'  317 |             message.data = {\x1b[01;35m\x1b[Kx1\x1b[m\x1b[K, y1, theta, vx, vy, omega, speed, idx, path.size()};\n'}
+[6.892174] (o5) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.892247] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kx1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.892331] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ky1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.892428] (o5) StderrLine: {'line': b'  317 |             message.data = {x1, \x1b[01;35m\x1b[Ky1\x1b[m\x1b[K, theta, vx, vy, omega, speed, idx, path.size()};\n'}
+[6.892498] (o5) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.892572] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ky1\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.892651] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.892741] (o5) StderrLine: {'line': b'  317 |             message.data = {x1, y1, \x1b[01;35m\x1b[Ktheta\x1b[m\x1b[K, vx, vy, omega, speed, idx, path.size()};\n'}
+[6.892828] (o5) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.892898] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.892976] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kvx\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.893045] (o5) StderrLine: {'line': b'  317 |             message.data = {x1, y1, theta, \x1b[01;35m\x1b[Kvx\x1b[m\x1b[K, vy, omega, speed, idx, path.size()};\n'}
+[6.893111] (o5) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.893178] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kvx\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.893249] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kvy\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.893340] (o5) StderrLine: {'line': b'  317 |             message.data = {x1, y1, theta, vx, \x1b[01;35m\x1b[Kvy\x1b[m\x1b[K, omega, speed, idx, path.size()};\n'}
+[6.893408] (o5) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.893475] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:48:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kvy\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.893545] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Komega\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.893626] (o5) StderrLine: {'line': b'  317 |             message.data = {x1, y1, theta, vx, vy, \x1b[01;35m\x1b[Komega\x1b[m\x1b[K, speed, idx, path.size()};\n'}
+[6.893699] (o5) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.893786] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Komega\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.893878] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.893948] (o5) StderrLine: {'line': b'  317 |             message.data = {x1, y1, theta, vx, vy, omega, \x1b[01;35m\x1b[Kspeed\x1b[m\x1b[K, idx, path.size()};\n'}
+[6.894017] (o5) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.894087] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kspeed\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.894167] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kidx\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.894250] (o5) StderrLine: {'line': b'  317 |        message.data = {x1, y1, theta, vx, vy, omega, speed, \x1b[01;35m\x1b[Kidx\x1b[m\x1b[K, path.size()};\n'}
+[6.894327] (o5) StderrLine: {'line': b'      |                                                             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.894395] (o5) StderrLine: {'line': b'\n'}
+[6.894461] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[Kidx\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.894530] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(& path)->std::vector<Point2D>::size()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point2D>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.894609] (o5) StderrLine: {'line': b'  317 | message.data = {x1, y1, theta, vx, vy, omega, speed, idx, \x1b[01;35m\x1b[Kpath.size()\x1b[m\x1b[K};\n'}
+[6.894677] (o5) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[6.894755] (o5) StderrLine: {'line': b'\n'}
+[6.894834] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:317:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knarrowing conversion of \xe2\x80\x98\x1b[01m\x1b[K(& path)->std::vector<Point2D>::size()\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<Point2D>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing\x07-Wnarrowing\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.928440] (-) TimerEvent: {}
+[7.032103] (-) TimerEvent: {}
+[7.132851] (-) TimerEvent: {}
+[7.233281] (-) TimerEvent: {}
+[7.333758] (-) TimerEvent: {}
+[7.434308] (-) TimerEvent: {}
+[7.534825] (-) TimerEvent: {}
+[7.635432] (-) TimerEvent: {}
+[7.735924] (-) TimerEvent: {}
+[7.836342] (-) TimerEvent: {}
+[7.936804] (-) TimerEvent: {}
+[8.037214] (-) TimerEvent: {}
+[8.137585] (-) TimerEvent: {}
+[8.238075] (-) TimerEvent: {}
+[8.338519] (-) TimerEvent: {}
+[8.439007] (-) TimerEvent: {}
+[8.539470] (-) TimerEvent: {}
+[8.640001] (-) TimerEvent: {}
+[8.740473] (-) TimerEvent: {}
+[8.841003] (-) TimerEvent: {}
+[8.941609] (-) TimerEvent: {}
+[9.042106] (-) TimerEvent: {}
+[9.142561] (-) TimerEvent: {}
+[9.243034] (-) TimerEvent: {}
+[9.343476] (-) TimerEvent: {}
+[9.443915] (-) TimerEvent: {}
+[9.544328] (-) TimerEvent: {}
+[9.644694] (-) TimerEvent: {}
+[9.745138] (-) TimerEvent: {}
+[9.845509] (-) TimerEvent: {}
+[9.946023] (-) TimerEvent: {}
+[10.046600] (-) TimerEvent: {}
+[10.147133] (-) TimerEvent: {}
+[10.162571] (o5) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:6\x1b[m\x1b[K:\n'}
+[10.163110] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool argParse(int, char**, double*, optimalPlanner*, planningObjective*, std::string*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.163194] (o5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:583:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.163266] (o5) StderrLine: {'line': b'  583 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[10.163323] (o5) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.247309] (-) TimerEvent: {}
+[10.347825] (-) TimerEvent: {}
+[10.448317] (-) TimerEvent: {}
+[10.548844] (-) TimerEvent: {}
+[10.649325] (-) TimerEvent: {}
+[10.749838] (-) TimerEvent: {}
+[10.850547] (-) TimerEvent: {}
+[10.951071] (-) TimerEvent: {}
+[11.051566] (-) TimerEvent: {}
+[11.152104] (-) TimerEvent: {}
+[11.252578] (-) TimerEvent: {}
+[11.353069] (-) TimerEvent: {}
+[11.453499] (-) TimerEvent: {}
+[11.554355] (-) TimerEvent: {}
+[11.654776] (-) TimerEvent: {}
+[11.755293] (-) TimerEvent: {}
+[11.855781] (-) TimerEvent: {}
+[11.956263] (-) TimerEvent: {}
+[12.056766] (-) TimerEvent: {}
+[12.157234] (-) TimerEvent: {}
+[12.257711] (-) TimerEvent: {}
+[12.358245] (-) TimerEvent: {}
+[12.458698] (-) TimerEvent: {}
+[12.559134] (-) TimerEvent: {}
+[12.659617] (-) TimerEvent: {}
+[12.760145] (-) TimerEvent: {}
+[12.860640] (-) TimerEvent: {}
+[12.961138] (-) TimerEvent: {}
+[13.061628] (-) TimerEvent: {}
+[13.162687] (-) TimerEvent: {}
+[13.263157] (-) TimerEvent: {}
+[13.363656] (-) TimerEvent: {}
+[13.464196] (-) TimerEvent: {}
+[13.564707] (-) TimerEvent: {}
+[13.665213] (-) TimerEvent: {}
+[13.766140] (-) TimerEvent: {}
+[13.866629] (-) TimerEvent: {}
+[13.967152] (-) TimerEvent: {}
+[14.067799] (-) TimerEvent: {}
+[14.168435] (-) TimerEvent: {}
+[14.268818] (-) TimerEvent: {}
+[14.369289] (-) TimerEvent: {}
+[14.469860] (-) TimerEvent: {}
+[14.570381] (-) TimerEvent: {}
+[14.670821] (-) TimerEvent: {}
+[14.683482] (o5) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable main5\x1b[0m\n'}
+[14.771017] (-) TimerEvent: {}
+[14.871858] (-) TimerEvent: {}
+[14.972507] (-) TimerEvent: {}
+[15.073202] (-) TimerEvent: {}
+[15.173675] (-) TimerEvent: {}
+[15.274293] (-) TimerEvent: {}
+[15.374903] (-) TimerEvent: {}
+[15.475514] (-) TimerEvent: {}
+[15.576039] (-) TimerEvent: {}
+[15.676674] (-) TimerEvent: {}
+[15.777221] (-) TimerEvent: {}
+[15.877822] (-) TimerEvent: {}
+[15.978433] (-) TimerEvent: {}
+[16.078909] (-) TimerEvent: {}
+[16.179387] (-) TimerEvent: {}
+[16.279879] (-) TimerEvent: {}
+[16.380381] (-) TimerEvent: {}
+[16.480850] (-) TimerEvent: {}
+[16.561582] (o5) StdoutLine: {'line': b'[ 60%] Built target main5\n'}
+[16.581022] (-) TimerEvent: {}
+[16.652104] (o5) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/controller5.dir/src/controller5.cpp.o\x1b[0m\n'}
+[16.681194] (-) TimerEvent: {}
+[16.781677] (-) TimerEvent: {}
+[16.882200] (-) TimerEvent: {}
+[16.982703] (-) TimerEvent: {}
+[17.083329] (-) TimerEvent: {}
+[17.183841] (-) TimerEvent: {}
+[17.284332] (-) TimerEvent: {}
+[17.384842] (-) TimerEvent: {}
+[17.485351] (-) TimerEvent: {}
+[17.585836] (-) TimerEvent: {}
+[17.686275] (-) TimerEvent: {}
+[17.786637] (-) TimerEvent: {}
+[17.887124] (-) TimerEvent: {}
+[17.987596] (-) TimerEvent: {}
+[18.087946] (-) TimerEvent: {}
+[18.188395] (-) TimerEvent: {}
+[18.288823] (-) TimerEvent: {}
+[18.389206] (-) TimerEvent: {}
+[18.489648] (-) TimerEvent: {}
+[18.590039] (-) TimerEvent: {}
+[18.690530] (-) TimerEvent: {}
+[18.791051] (-) TimerEvent: {}
+[18.891563] (-) TimerEvent: {}
+[18.992098] (-) TimerEvent: {}
+[19.092588] (-) TimerEvent: {}
+[19.193053] (-) TimerEvent: {}
+[19.293444] (-) TimerEvent: {}
+[19.393951] (-) TimerEvent: {}
+[19.494396] (-) TimerEvent: {}
+[19.594889] (-) TimerEvent: {}
+[19.695381] (-) TimerEvent: {}
+[19.795859] (-) TimerEvent: {}
+[19.896335] (-) TimerEvent: {}
+[19.996850] (-) TimerEvent: {}
+[20.097379] (-) TimerEvent: {}
+[20.197891] (-) TimerEvent: {}
+[20.298418] (-) TimerEvent: {}
+[20.398993] (-) TimerEvent: {}
+[20.499534] (-) TimerEvent: {}
+[20.600088] (-) TimerEvent: {}
+[20.700605] (-) TimerEvent: {}
+[20.801153] (-) TimerEvent: {}
+[20.901888] (-) TimerEvent: {}
+[21.002423] (-) TimerEvent: {}
+[21.102877] (-) TimerEvent: {}
+[21.203320] (-) TimerEvent: {}
+[21.303703] (-) TimerEvent: {}
+[21.404100] (-) TimerEvent: {}
+[21.504493] (-) TimerEvent: {}
+[21.604854] (-) TimerEvent: {}
+[21.705258] (-) TimerEvent: {}
+[21.805830] (-) TimerEvent: {}
+[21.906223] (-) TimerEvent: {}
+[22.006639] (-) TimerEvent: {}
+[22.107086] (-) TimerEvent: {}
+[22.207502] (-) TimerEvent: {}
+[22.307918] (-) TimerEvent: {}
+[22.408275] (-) TimerEvent: {}
+[22.508653] (-) TimerEvent: {}
+[22.609124] (-) TimerEvent: {}
+[22.709602] (-) TimerEvent: {}
+[22.810075] (-) TimerEvent: {}
+[22.910446] (-) TimerEvent: {}
+[23.010832] (-) TimerEvent: {}
+[23.111212] (-) TimerEvent: {}
+[23.211574] (-) TimerEvent: {}
+[23.311950] (-) TimerEvent: {}
+[23.412309] (-) TimerEvent: {}
+[23.512673] (-) TimerEvent: {}
+[23.613090] (-) TimerEvent: {}
+[23.713566] (-) TimerEvent: {}
+[23.814067] (-) TimerEvent: {}
+[23.914544] (-) TimerEvent: {}
+[24.015061] (-) TimerEvent: {}
+[24.115532] (-) TimerEvent: {}
+[24.216040] (-) TimerEvent: {}
+[24.316518] (-) TimerEvent: {}
+[24.417013] (-) TimerEvent: {}
+[24.517488] (-) TimerEvent: {}
+[24.617991] (-) TimerEvent: {}
+[24.718564] (-) TimerEvent: {}
+[24.819080] (-) TimerEvent: {}
+[24.919500] (-) TimerEvent: {}
+[25.019948] (-) TimerEvent: {}
+[25.120329] (-) TimerEvent: {}
+[25.220799] (-) TimerEvent: {}
+[25.321300] (-) TimerEvent: {}
+[25.421800] (-) TimerEvent: {}
+[25.504586] (o5) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller5\x1b[0m\n'}
+[25.521983] (-) TimerEvent: {}
+[25.622518] (-) TimerEvent: {}
+[25.723142] (-) TimerEvent: {}
+[25.823802] (-) TimerEvent: {}
+[25.924370] (-) TimerEvent: {}
+[26.025045] (-) TimerEvent: {}
+[26.125507] (-) TimerEvent: {}
+[26.226119] (-) TimerEvent: {}
+[26.327068] (-) TimerEvent: {}
+[26.427626] (-) TimerEvent: {}
+[26.439512] (o5) StdoutLine: {'line': b'[100%] Built target controller5\n'}
+[26.457978] (o5) CommandEnded: {'returncode': 0}
+[26.459943] (o5) JobProgress: {'identifier': 'o5', 'progress': 'install'}
+[26.461228] (o5) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/arbaaz/decision_module/build/o5'], 'cwd': '/home/arbaaz/decision_module/build/o5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'arbaaz'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/arbaaz'), ('OLDPWD', '/home/arbaaz'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1730'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/arbaaz/decision_module/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'arbaaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'arbaaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/arbaaz/decision_module/build/o5'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble')]), 'shell': False}
+[26.470940] (o5) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.472612] (o5) StdoutLine: {'line': b'-- Installing: /home/arbaaz/decision_module/install/o5/lib/o5/main5\n'}
+[26.479788] (o5) StdoutLine: {'line': b'-- Set runtime path of "/home/arbaaz/decision_module/install/o5/lib/o5/main5" to ""\n'}
+[26.480591] (o5) StdoutLine: {'line': b'-- Installing: /home/arbaaz/decision_module/install/o5/lib/o5/controller5\n'}
+[26.487038] (o5) StdoutLine: {'line': b'-- Set runtime path of "/home/arbaaz/decision_module/install/o5/lib/o5/controller5" to ""\n'}
+[26.488747] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/package_run_dependencies/o5\n'}
+[26.489135] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/parent_prefix_path/o5\n'}
+[26.490634] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/ament_prefix_path.sh\n'}
+[26.490875] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/ament_prefix_path.dsv\n'}
+[26.490994] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/path.sh\n'}
+[26.491065] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/path.dsv\n'}
+[26.491143] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.bash\n'}
+[26.491227] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.sh\n'}
+[26.491298] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.zsh\n'}
+[26.491353] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.dsv\n'}
+[26.491408] (o5) StdoutLine: {'line': b'-- Installing: /home/arbaaz/decision_module/install/o5/share/o5/package.dsv\n'}
+[26.492080] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/packages/o5\n'}
+[26.492399] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/cmake/o5Config.cmake\n'}
+[26.492574] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/cmake/o5Config-version.cmake\n'}
+[26.492812] (o5) StdoutLine: {'line': b'-- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/package.xml\n'}
+[26.495672] (o5) CommandEnded: {'returncode': 0}
+[26.514467] (o5) JobEnded: {'identifier': 'o5', 'rc': 0}
+[26.515377] (simulation_pkg) JobStarted: {'identifier': 'simulation_pkg'}
+[26.527759] (-) TimerEvent: {}
+[26.628207] (-) TimerEvent: {}
+[26.728581] (-) TimerEvent: {}
+[26.828999] (-) TimerEvent: {}
+[26.929375] (-) TimerEvent: {}
+[27.029700] (-) TimerEvent: {}
+[27.130190] (-) TimerEvent: {}
+[27.230828] (-) TimerEvent: {}
+[27.331357] (-) TimerEvent: {}
+[27.418854] (simulation_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simulation_pkg', 'build', '--build-base', '/home/arbaaz/decision_module/build/simulation_pkg/build', 'install', '--record', '/home/arbaaz/decision_module/build/simulation_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/arbaaz/decision_module/src/simulation_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'arbaaz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/arbaaz', 'OLDPWD': '/home/arbaaz', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1730', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/arbaaz/decision_module/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'arbaaz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arbaaz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/arbaaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ThinkBook-15-G3-ACL:@/tmp/.ICE-unix/1703,unix/ThinkBook-15-G3-ACL:/tmp/.ICE-unix/1703', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/94aba7ff_680a_42ee_ae35_ca49ab85e953', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.122', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/arbaaz/decision_module/install/simulation_pkg:/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arbaaz/decision_module/build/simulation_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/arbaaz/decision_module/build/simulation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/arbaaz/decision_module/install/o5:/home/arbaaz/decision_module/install/o4:/home/arbaaz/decision_module/install/o3:/home/arbaaz/decision_module/install/o2:/home/arbaaz/decision_module/install/o1'}, 'shell': False}
+[27.431496] (-) TimerEvent: {}
+[27.531970] (-) TimerEvent: {}
+[27.632472] (-) TimerEvent: {}
+[27.657009] (simulation_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[27.657707] (simulation_pkg) StdoutLine: {'line': b'writing ../../build/simulation_pkg/simulation_pkg.egg-info/PKG-INFO\n'}
+[27.666634] (simulation_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/simulation_pkg/simulation_pkg.egg-info/dependency_links.txt\n'}
+[27.667222] (simulation_pkg) StdoutLine: {'line': b'writing entry points to ../../build/simulation_pkg/simulation_pkg.egg-info/entry_points.txt\n'}
+[27.667560] (simulation_pkg) StdoutLine: {'line': b'writing requirements to ../../build/simulation_pkg/simulation_pkg.egg-info/requires.txt\n'}
+[27.667752] (simulation_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/simulation_pkg/simulation_pkg.egg-info/top_level.txt\n'}
+[27.670442] (simulation_pkg) StdoutLine: {'line': b"reading manifest file '../../build/simulation_pkg/simulation_pkg.egg-info/SOURCES.txt'\n"}
+[27.671599] (simulation_pkg) StdoutLine: {'line': b"writing manifest file '../../build/simulation_pkg/simulation_pkg.egg-info/SOURCES.txt'\n"}
+[27.672064] (simulation_pkg) StdoutLine: {'line': b'running build\n'}
+[27.672290] (simulation_pkg) StdoutLine: {'line': b'running build_py\n'}
+[27.672468] (simulation_pkg) StdoutLine: {'line': b'copying simulation_pkg/decision_making.py -> /home/arbaaz/decision_module/build/simulation_pkg/build/lib/simulation_pkg\n'}
+[27.672827] (simulation_pkg) StdoutLine: {'line': b'copying simulation_pkg/heat_maps.py -> /home/arbaaz/decision_module/build/simulation_pkg/build/lib/simulation_pkg\n'}
+[27.673454] (simulation_pkg) StdoutLine: {'line': b'running install\n'}
+[27.673881] (simulation_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[27.674772] (simulation_pkg) StdoutLine: {'line': b'copying /home/arbaaz/decision_module/build/simulation_pkg/build/lib/simulation_pkg/decision_making.py -> /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg\n'}
+[27.675025] (simulation_pkg) StdoutLine: {'line': b'copying /home/arbaaz/decision_module/build/simulation_pkg/build/lib/simulation_pkg/heat_maps.py -> /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg\n'}
+[27.676075] (simulation_pkg) StdoutLine: {'line': b'byte-compiling /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg/decision_making.py to decision_making.cpython-310.pyc\n'}
+[27.678968] (simulation_pkg) StdoutLine: {'line': b'byte-compiling /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg/heat_maps.py to heat_maps.cpython-310.pyc\n'}
+[27.681273] (simulation_pkg) StdoutLine: {'line': b'running install_data\n'}
+[27.681761] (simulation_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[27.683358] (simulation_pkg) StdoutLine: {'line': b"removing '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[27.683728] (simulation_pkg) StdoutLine: {'line': b'Copying ../../build/simulation_pkg/simulation_pkg.egg-info to /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg-0.0.1-py3.10.egg-info\n'}
+[27.684827] (simulation_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[27.703434] (simulation_pkg) StdoutLine: {'line': b'Installing bot_simulation script to /home/arbaaz/decision_module/install/simulation_pkg/lib/simulation_pkg\n'}
+[27.703691] (simulation_pkg) StdoutLine: {'line': b'Installing decision script to /home/arbaaz/decision_module/install/simulation_pkg/lib/simulation_pkg\n'}
+[27.703801] (simulation_pkg) StdoutLine: {'line': b'Installing joystick_controller script to /home/arbaaz/decision_module/install/simulation_pkg/lib/simulation_pkg\n'}
+[27.703916] (simulation_pkg) StdoutLine: {'line': b'Installing linear_controller script to /home/arbaaz/decision_module/install/simulation_pkg/lib/simulation_pkg\n'}
+[27.704241] (simulation_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/arbaaz/decision_module/build/simulation_pkg/install.log'\n"}
+[27.732667] (-) TimerEvent: {}
+[27.740673] (simulation_pkg) CommandEnded: {'returncode': 0}
+[27.746596] (simulation_pkg) JobEnded: {'identifier': 'simulation_pkg', 'rc': 0}
+[27.747298] (-) EventReactorShutdown: {}

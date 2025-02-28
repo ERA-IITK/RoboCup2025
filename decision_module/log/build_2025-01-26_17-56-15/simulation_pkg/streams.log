@@ -1,0 +1,30 @@
+[0.856s] Invoking command in '/home/arbaaz/decision_module/src/simulation_pkg': PYTHONPATH=/home/arbaaz/decision_module/build/simulation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simulation_pkg build --build-base /home/arbaaz/decision_module/build/simulation_pkg/build install --record /home/arbaaz/decision_module/build/simulation_pkg/install.log --single-version-externally-managed install_data
+[1.101s] running egg_info
+[1.101s] writing ../../build/simulation_pkg/simulation_pkg.egg-info/PKG-INFO
+[1.102s] writing dependency_links to ../../build/simulation_pkg/simulation_pkg.egg-info/dependency_links.txt
+[1.102s] writing entry points to ../../build/simulation_pkg/simulation_pkg.egg-info/entry_points.txt
+[1.102s] writing requirements to ../../build/simulation_pkg/simulation_pkg.egg-info/requires.txt
+[1.102s] writing top-level names to ../../build/simulation_pkg/simulation_pkg.egg-info/top_level.txt
+[1.106s] reading manifest file '../../build/simulation_pkg/simulation_pkg.egg-info/SOURCES.txt'
+[1.107s] writing manifest file '../../build/simulation_pkg/simulation_pkg.egg-info/SOURCES.txt'
+[1.107s] running build
+[1.107s] running build_py
+[1.108s] copying simulation_pkg/decision_making.py -> /home/arbaaz/decision_module/build/simulation_pkg/build/lib/simulation_pkg
+[1.108s] copying simulation_pkg/heat_maps.py -> /home/arbaaz/decision_module/build/simulation_pkg/build/lib/simulation_pkg
+[1.109s] running install
+[1.109s] running install_lib
+[1.110s] copying /home/arbaaz/decision_module/build/simulation_pkg/build/lib/simulation_pkg/decision_making.py -> /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg
+[1.110s] copying /home/arbaaz/decision_module/build/simulation_pkg/build/lib/simulation_pkg/heat_maps.py -> /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg
+[1.111s] byte-compiling /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg/decision_making.py to decision_making.cpython-310.pyc
+[1.114s] byte-compiling /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg/heat_maps.py to heat_maps.cpython-310.pyc
+[1.116s] running install_data
+[1.117s] running install_egg_info
+[1.119s] removing '/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg-0.0.1-py3.10.egg-info' (and everything under it)
+[1.119s] Copying ../../build/simulation_pkg/simulation_pkg.egg-info to /home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages/simulation_pkg-0.0.1-py3.10.egg-info
+[1.120s] running install_scripts
+[1.138s] Installing bot_simulation script to /home/arbaaz/decision_module/install/simulation_pkg/lib/simulation_pkg
+[1.138s] Installing decision script to /home/arbaaz/decision_module/install/simulation_pkg/lib/simulation_pkg
+[1.138s] Installing joystick_controller script to /home/arbaaz/decision_module/install/simulation_pkg/lib/simulation_pkg
+[1.139s] Installing linear_controller script to /home/arbaaz/decision_module/install/simulation_pkg/lib/simulation_pkg
+[1.139s] writing list of installed files to '/home/arbaaz/decision_module/build/simulation_pkg/install.log'
+[1.174s] Invoked command in '/home/arbaaz/decision_module/src/simulation_pkg' returned '0': PYTHONPATH=/home/arbaaz/decision_module/build/simulation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arbaaz/decision_module/install/simulation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simulation_pkg build --build-base /home/arbaaz/decision_module/build/simulation_pkg/build install --record /home/arbaaz/decision_module/build/simulation_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,29 @@
+[01m[K/home/arbaaz/decision_module/src/o5/src/Visualize.cpp:[m[K In member function ‘[01m[Kvoid Visualize::visualizeGame(std::vector<Point2D>&, Point2D&, int, double, std::vector<Point2D>&, Point2D&)[m[K’:
+[01m[K/home/arbaaz/decision_module/src/o5/src/Visualize.cpp:179:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  179 |     for (int i = 0; [01;35m[Ki < obstacles.size()[m[K; i++) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:6[m[K:
+[01m[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:[m[K In member function ‘[01m[Kvirtual double ValidityChecker::clearance(const ompl::base::State*) const[m[K’:
+[01m[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:124:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  124 |         for (int i = 0; [01;35m[Ki < obstacles.size()[m[K; i++)
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:137:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PointWithRadius>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  137 |         if ([01;35m[Kcount == v.size()[m[K)
+      |             [01;35m[K~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/arbaaz/decision_module/src/o5/src/main5.cpp:6[m[K:
+[01m[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:[m[K In function ‘[01m[Kstd::vector<Point2D> plan(double, double, double, std::vector<Point2D>&, optimalPlanner, planningObjective, Point2D&, Point2D&, Point2D&)[m[K’:
+[01m[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:339:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  339 |             for (int i = 1; [01;35m[Ki < x_values.size()[m[K; i++)
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:350:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist_now_fin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  350 |             float [01;35m[Kdist_now_fin[m[K = sqrt((nowPos.x - finalPos.x) * (nowPos.x - finalPos.x) + (nowPos.y - finalPos.y) * (nowPos.y - finalPos.y));
+      |                   [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/arbaaz/decision_module/src/o5/include/PathPlanner.hpp:250:133:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KballPos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  250 | ve objectiveType, Point2D &nowPos, Point2D &finalPos, [01;35m[KPoint2D &ballPos[m[K)
+      |                                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/main5.dir/build.make:76: CMakeFiles/main5.dir/src/main5.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/controller5.dir/build.make:76: CMakeFiles/controller5.dir/src/controller5.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller5.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main5.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,42 @@
+PROTO SphereRobot [
+    field SFString controller "my_robot_controller"  # Specify your external controller name
+    field SFVec3f size 0.1  # Radius of the sphere
+    field SFVec3f translation 0 0 0  # Position in the world
+]
+
+{
+    # Define the sphere shape
+    Shape {
+        appearance Appearance {
+            material Material {
+                diffuseColor 0.2 0.7 0.2  # Color of the sphere
+            }
+        }
+        geometry Sphere {
+            radius size.x
+        }
+    }
+
+    # Set up the GPS device
+    GPS {
+        name "gps"  # Name of the GPS device
+        resolution 0.01  # Resolution of the GPS readings
+    }
+
+    # Define the physics properties for the sphere (ball-like behavior)
+    Physics {
+        density 1.0  # Density of the sphere
+        restitution 0.9  # Bounciness of the sphere
+    }
+
+    # Connect the external controller
+    Robot {
+        controller IS controller  # Use the specified controller
+        translation IS translation  # Use the specified translation
+        children [
+            Shape {
+                # Sphere shape for the robot
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+[0.019s] Invoking command in '/home/arbaaz/decision_module/build/o1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o1 -- -j12 -l12
+[0.251s] [ 20%] [32mBuilding CXX object CMakeFiles/controller1.dir/src/controller1.cpp.o[0m
+[0.274s] [ 60%] [32mBuilding CXX object CMakeFiles/main1.dir/src/Visualize.cpp.o[0m
+[0.275s] [ 60%] [32mBuilding CXX object CMakeFiles/main1.dir/src/main1.cpp.o[0m
+[1.766s] [01m[K/home/arbaaz/decision_module/src/o1/src/Visualize.cpp:[m[K In member function ‘[01m[Kvoid Visualize::visualizeGame(std::vector<Point2D>&, Point2D&, int, double, std::vector<Point2D>&, Point2D&)[m[K’:
+[1.766s] [01m[K/home/arbaaz/decision_module/src/o1/src/Visualize.cpp:179:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.767s]   179 |     for (int i = 0; [01;35m[Ki < obstacles.size()[m[K; i++) {
+[1.767s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[4.449s] In file included from [01m[K/home/arbaaz/decision_module/src/o1/src/main1.cpp:6[m[K:
+[4.449s] [01m[K/home/arbaaz/decision_module/src/o1/include/PathPlanner.hpp:[m[K In member function ‘[01m[Kvirtual double ValidityChecker::clearance(const ompl::base::State*) const[m[K’:
+[4.449s] [01m[K/home/arbaaz/decision_module/src/o1/include/PathPlanner.hpp:124:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.449s]   124 |         for (int i = 0; [01;35m[Ki < obstacles.size()[m[K; i++)
+[4.450s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[4.450s] [01m[K/home/arbaaz/decision_module/src/o1/include/PathPlanner.hpp:137:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<PointWithRadius>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.450s]   137 |         if ([01;35m[Kcount == v.size()[m[K)
+[4.450s]       |             [01;35m[K~~~~~~^~~~~~~~~~~[m[K
+[4.504s] In file included from [01m[K/home/arbaaz/decision_module/src/o1/src/main1.cpp:6[m[K:
+[4.504s] [01m[K/home/arbaaz/decision_module/src/o1/include/PathPlanner.hpp:[m[K In function ‘[01m[Kstd::vector<Point2D> plan(double, double, double, std::vector<Point2D>&, optimalPlanner, planningObjective, Point2D&, Point2D&, Point2D&)[m[K’:
+[4.504s] [01m[K/home/arbaaz/decision_module/src/o1/include/PathPlanner.hpp:339:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.504s]   339 |             for (int i = 1; [01;35m[Ki < x_values.size()[m[K; i++)
+[4.504s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[4.504s] [01m[K/home/arbaaz/decision_module/src/o1/include/PathPlanner.hpp:350:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist_now_fin[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.504s]   350 |             float [01;35m[Kdist_now_fin[m[K = sqrt((nowPos.x - finalPos.x) * (nowPos.x - finalPos.x) + (nowPos.y - finalPos.y) * (nowPos.y - finalPos.y));
+[4.504s]       |                   [01;35m[K^~~~~~~~~~~~[m[K
+[4.506s] [01m[K/home/arbaaz/decision_module/src/o1/include/PathPlanner.hpp:250:133:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KballPos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.506s]   250 | ve objectiveType, Point2D &nowPos, Point2D &finalPos, [01;35m[KPoint2D &ballPos[m[K)
+[4.506s]       |                                                       [01;35m[K~~~~~~~~~^~~~~~~[m[K
+[4.506s] 
+[278.637s] gmake[2]: *** [CMakeFiles/main1.dir/build.make:76: CMakeFiles/main1.dir/src/main1.cpp.o] Interrupt
+[278.639s] gmake[2]: *** [CMakeFiles/controller1.dir/build.make:76: CMakeFiles/controller1.dir/src/controller1.cpp.o] Interrupt
+[278.639s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/main1.dir/all] Interrupt
+[278.639s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller1.dir/all] Interrupt
+[278.639s] gmake: *** [Makefile:146: all] Interrupt
+[278.740s] Invoked command in '/home/arbaaz/decision_module/build/o1' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o1 -- -j12 -l12

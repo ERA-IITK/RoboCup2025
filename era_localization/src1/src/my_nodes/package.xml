@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>my_nodes</name>
+  <version>0.0.0</version>
+  <description>A ROS 2 package for subscriber nodes</description>
+  <maintainer email="mangalshivansh1720@gmail.com">shivansh</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>tf2</build_depend>             <!-- Add this line for tf2 -->
+  <build_depend>tf2_ros</build_depend>         <!-- Add this line for tf2_ros -->
+  <build_depend>tf2_sensor_msgs</build_depend> <!-- Add this line for tf2_sensor_msgs -->
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>tf2</exec_depend>             <!-- Add this line for tf2 -->
+  <exec_depend>tf2_ros</exec_depend>         <!-- Add this line for tf2_ros -->
+  <exec_depend>tf2_sensor_msgs</exec_depend> <!-- Add this line for tf2_sensor_msgs -->
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+  <!-- Add any additional dependencies as needed -->
+
+</package>

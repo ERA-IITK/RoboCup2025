@@ -1,0 +1,2 @@
+Invoking command in '/home/arbaaz/decision_module/build/o5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o5 -- -j12 -l12
+Invoked command in '/home/arbaaz/decision_module/build/o5' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o5 -- -j12 -l12

@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/arbaaz/decision_module/build/o4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o4 -- -j12 -l12
+[0.085s] [ 40%] Built target controller4
+[0.091s] [100%] Built target main4
+[0.106s] Invoked command in '/home/arbaaz/decision_module/build/o4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o4 -- -j12 -l12
+[0.109s] Invoking command in '/home/arbaaz/decision_module/build/o4': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o4
+[0.118s] -- Install configuration: ""
+[0.119s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/lib/o4/main4
+[0.120s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/lib/o4/controller4
+[0.120s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/package_run_dependencies/o4
+[0.120s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/parent_prefix_path/o4
+[0.121s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/ament_prefix_path.sh
+[0.121s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/ament_prefix_path.dsv
+[0.121s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/path.sh
+[0.121s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/path.dsv
+[0.121s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.bash
+[0.121s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.sh
+[0.121s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.zsh
+[0.121s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.dsv
+[0.121s] -- Installing: /home/arbaaz/decision_module/install/o4/share/o4/package.dsv
+[0.122s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/packages/o4
+[0.122s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/cmake/o4Config.cmake
+[0.122s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/cmake/o4Config-version.cmake
+[0.122s] -- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/package.xml
+[0.125s] Invoked command in '/home/arbaaz/decision_module/build/o4' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o4

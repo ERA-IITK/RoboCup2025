@@ -1,0 +1,20 @@
+[ 40%] Built target controller4
+[100%] Built target main4
+-- Install configuration: ""
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/lib/o4/main4
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/lib/o4/controller4
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/package_run_dependencies/o4
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/parent_prefix_path/o4
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/ament_prefix_path.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/path.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/environment/path.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.bash
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.sh
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.zsh
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/local_setup.dsv
+-- Installing: /home/arbaaz/decision_module/install/o4/share/o4/package.dsv
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/ament_index/resource_index/packages/o4
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/cmake/o4Config.cmake
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/cmake/o4Config-version.cmake
+-- Up-to-date: /home/arbaaz/decision_module/install/o4/share/o4/package.xml

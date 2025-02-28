@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/arbaaz/decision_module/build/o2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o2 -- -j12 -l12
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target controller2[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target main2[0m
+[0.100s] [ 40%] Built target controller2
+[0.115s] [100%] Built target main2
+[0.132s] Invoked command in '/home/arbaaz/decision_module/build/o2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o2 -- -j12 -l12
+[0.135s] Invoking command in '/home/arbaaz/decision_module/build/o2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o2
+[0.144s] -- Install configuration: ""
+[0.145s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/lib/o2/main2
+[0.146s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/lib/o2/controller2
+[0.146s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/package_run_dependencies/o2
+[0.146s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/parent_prefix_path/o2
+[0.146s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/ament_prefix_path.sh
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/ament_prefix_path.dsv
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/path.sh
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/environment/path.dsv
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.bash
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.sh
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.zsh
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/local_setup.dsv
+[0.147s] -- Installing: /home/arbaaz/decision_module/install/o2/share/o2/package.dsv
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/ament_index/resource_index/packages/o2
+[0.147s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/cmake/o2Config.cmake
+[0.148s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/cmake/o2Config-version.cmake
+[0.148s] -- Up-to-date: /home/arbaaz/decision_module/install/o2/share/o2/package.xml
+[0.151s] Invoked command in '/home/arbaaz/decision_module/build/o2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o2

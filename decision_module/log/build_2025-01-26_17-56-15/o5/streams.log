@@ -1,0 +1,27 @@
+[0.010s] Invoking command in '/home/arbaaz/decision_module/build/o5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o5 -- -j12 -l12
+[0.084s] [ 20%] [32mBuilding CXX object CMakeFiles/controller5.dir/src/controller5.cpp.o[0m
+[0.094s] [ 80%] Built target main5
+[9.540s] [100%] [32m[1mLinking CXX executable controller5[0m
+[10.581s] [100%] Built target controller5
+[10.601s] Invoked command in '/home/arbaaz/decision_module/build/o5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --build /home/arbaaz/decision_module/build/o5 -- -j12 -l12
+[10.604s] Invoking command in '/home/arbaaz/decision_module/build/o5': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o5
+[10.615s] -- Install configuration: ""
+[10.616s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/lib/o5/main5
+[10.617s] -- Installing: /home/arbaaz/decision_module/install/o5/lib/o5/controller5
+[10.624s] -- Set runtime path of "/home/arbaaz/decision_module/install/o5/lib/o5/controller5" to ""
+[10.626s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/package_run_dependencies/o5
+[10.626s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/parent_prefix_path/o5
+[10.628s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/ament_prefix_path.sh
+[10.628s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/ament_prefix_path.dsv
+[10.629s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/path.sh
+[10.629s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/environment/path.dsv
+[10.629s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.bash
+[10.629s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.sh
+[10.629s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.zsh
+[10.629s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/local_setup.dsv
+[10.629s] -- Installing: /home/arbaaz/decision_module/install/o5/share/o5/package.dsv
+[10.629s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/ament_index/resource_index/packages/o5
+[10.630s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/cmake/o5Config.cmake
+[10.630s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/cmake/o5Config-version.cmake
+[10.630s] -- Up-to-date: /home/arbaaz/decision_module/install/o5/share/o5/package.xml
+[10.633s] Invoked command in '/home/arbaaz/decision_module/build/o5' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arbaaz/decision_module/install/simulation_pkg:/opt/ros/humble /usr/bin/cmake --install /home/arbaaz/decision_module/build/o5

@@ -1,0 +1,6 @@
+[console_scripts]
+bot_simulation = simulation_pkg.robot_sim:main
+decision = simulation_pkg.decision_making:main
+joystick_controller = simulation_pkg.joystick_controller:main
+linear_controller = simulation_pkg.linear_controller:main
+
